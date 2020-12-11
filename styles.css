@@ -11,6 +11,8 @@ body {
     sans-serif;
     font-size: 18px;
     background-color: var(--dark-cyan);
-    background-image: url("images/bg-pattern-top.svg") right 40vw bottom 40vh;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: -200px -489px, 1000px 500px;
+    background-repeat: no-repeat, no-repeat;
 
 }

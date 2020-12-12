@@ -12,7 +12,27 @@ body {
     font-size: 18px;
     background-color: var(--dark-cyan);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-position: -200px -489px, 1000px 500px;
+    background-position: -8vw -50vh, 50vw 50vh;
     background-repeat: no-repeat, no-repeat;
 
+}
+
+.card {
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+width: 40%;
+border-radius: 15px;
+}
+
+.container {
+    padding: 80px 5px;
+}
+
+.header {
+    background-image: url("images/bg-pattern-card.svg");
+}
+
+.footer {
+    background: white;
 }
